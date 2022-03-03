@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>IMC</title>
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <h1>Calcule seu IMC</h1>
+            <p>
+
+                Resultado Situação
+                Abaixo de 17 Muito abaixo do peso
+                Entre 17 e 18,49 Abaixo do peso
+                Entre 18,50 e 24,99 Peso normal
+                Entre 25 e 29,99 Acima do peso
+                Entre 30 e 34,99 Obesidade I
+                Entre 35 e 39,99 Obesidade II (severa)
+                Acima de 40 Obesidade III (mórbida)
+            </p>
+
+            <form action="" id="form" method="post">
+                <label for="peso">Peso</label>
+                <input type="text" id="peso" name="peso">
+
+                <label for="altura">Altura</label>
+                <input type="text" id="altura" name="altura">
+
+                <button type="submit">Send</button>
+            </form>
+
+            <div id="result">
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

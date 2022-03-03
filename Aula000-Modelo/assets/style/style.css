@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+    --primary-color: #115666;
+    --button-hover: #12333a;
+     
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;    
+    background-color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 40rem;
+    margin: 3rem auto;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+form input {
+    font-size: 1.5rem;
+    height: 3rem;
+    padding: 0 1rem;
+}
+
+form input:focus {
+    outline: 2px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    height: 3rem;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    margin-top: 2rem;
+}
+
+form button:hover {
+    background-color: var(--button-hover);
+}
+
